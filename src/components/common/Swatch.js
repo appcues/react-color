@@ -36,7 +36,7 @@ export const Swatch = ({ color, style, onClick = () => {}, onHover, title = colo
   return (
     <div
       style={ styles.swatch }
-      onClick={ handleClick }
+      onMouseDown={ handleClick }
       title={ title }
       tabIndex={ 0 }
       onKeyDown={ handleKeyDown }
